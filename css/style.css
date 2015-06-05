@@ -1,1 +1,83 @@
 /* All style should go in this document. */
+
+nav{
+
+
+    background: rgb(00,150,164);
+
+    border-radius: 8px;
+}
+nav li{
+
+    padding: 5px;
+    list-style: none;
+    float: left;
+
+}
+
+
+* { box-sizing: border-box; }
+
+body { 
+	margin: 2.2rem;
+	background-color: skyblue;
+}
+
+div {
+	min-width: 380px;
+	background: lightblue;
+	font: 16px Helvetica, sans-serif; line-height: 24px; 
+	padding: 15px;
+}
+h1 { 
+	margin: 0 0 16px 0; 
+	padding: 0 0 16px 0; 
+	font-size: 42px; 
+	font-weight: bold; 
+	letter-spacing:-2px;
+	border-bottom: 1px solid #999; 
+	line-height: 50px; 
+	color: rgb(37,48,92);: 
+}
+h2 { font-size: 20px; 
+	margin: 0 0 6px 0; 
+	position: 
+	relative; 
+	color: darkcyan;
+}
+h2 span { position: 
+	absolute; 
+	bottom: 0; 
+	right: 0; 
+	font-size: 16px; 
+	color: #999; 
+	font-weight: 
+	normal; 
+}
+p { margin: 0 0 16px 0; }
+a { text-decoration: none; border-bottom: 1px dotted #999; }
+a:hover { border-bottom-style: solid; color: black; }
+p#objective { color: black; }
+h2 span, p#objective { 
+	font-family: 
+	Georgia, 
+	serif; 
+	font-style: 
+	italic; 
+}
+dt { font-style: italic; 
+	font-weight: bold; 
+	font-size: 18px; 
+	text-align: 
+	right;
+	padding: 0 26px 0 0; 
+	width: 150px; 
+	border-right: 1px solid #999; 
+	color: darkcyan;
+}
+dl { display: table-row; }
+dl dt, dl dd { display: table-cell; padding-bottom: 20px; }
+dl dd { width: 500px; padding-left: 26px; }
+img{
+	border-radius: 150px;
+}
