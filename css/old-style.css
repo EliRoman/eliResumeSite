@@ -21,14 +21,10 @@ nav li{
 body { 
 	margin: 2.2rem;
 	background-color: skyblue;
+
 }
 
-div {
-	min-width: 380px;
-	background: lightblue;
-	font: 16px Helvetica, sans-serif; line-height: 24px; 
-	padding: 15px;
-}
+
 h1 { 
 	margin: 0 0 16px 0; 
 	padding: 0 0 16px 0; 
@@ -39,6 +35,7 @@ h1 {
 	line-height: 50px; 
 	color: rgb(37,48,92);: 
 }
+
 h2 { font-size: 20px; 
 	margin: 0 0 6px 0; 
 	position: 
@@ -81,4 +78,26 @@ dl dd { width: 500px; padding-left: 26px; }
 img{
 	border-radius: 150px;
 	height: 50%;
+}
+
+
+		/* Contact Form */
+#message{
+	height: 110px;
+	width: 50%;
+
+}
+	/* End Contact Form*/
+
+#info {
+	min-width: 380px;
+	background: lightblue;
+	font: 16px Helvetica, sans-serif; line-height: 24px; 
+	padding: 15px;
+}
+
+#pagehead {
+	background-image: url("space.jpg");
+	background-color: transparent;
+	text-align: center;
 }
