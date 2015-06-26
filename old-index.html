@@ -8,7 +8,7 @@
         <link rel="shortcut icon" href="img/ProfilePic.jpg" type="image/png">
     </head>
     <body>
-    	<div id="pagehead">
+    	<div class="pagehead">
 			<img src="img/ProfilePic.jpg" alt="Portrait of Yours truly">
 			<h1>Eli Roman</h1>
     	</div>
@@ -56,11 +56,9 @@
 			<a name="mailme"></a>
 			<form action="MAILTO:eli.j.roman@gmail.com" method="post" enctype="text/plain">
 				<h3>Contact Me:</h3>
-				
-				<input class="contact-input" type="text" id="Name" placeholder="Name"></input>
-				<input class="contact-input" type="text" id="email" placeholder="Your Email"></input>
-				<br />
-				<textarea id="message" placeholder="Message"></textarea>
+				<p>Type a comment and send it to my email.</p>	
+
+				<textarea id="message" name="message" placeholder="Message"></textarea>
 				<br />
 				<input type="submit" value="Send">
 				<input type="reset" value="Reset">

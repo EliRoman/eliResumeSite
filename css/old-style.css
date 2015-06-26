@@ -21,6 +21,8 @@ nav li{
 body { 
 	margin: 2.2rem;
 	background-color: skyblue;
+	border-radius: 5px;
+	
 
 }
 
@@ -30,10 +32,10 @@ h1 {
 	padding: 0 0 16px 0; 
 	font-size: 42px; 
 	font-weight: bold; 
-	letter-spacing:-2px;
+	letter-spacing:4px;
 	border-bottom: 1px solid #999; 
-	line-height: 50px; 
-	color: rgb(37,48,92);: 
+	line-height: 80px;
+	color: black;
 }
 
 h2 { font-size: 20px; 
@@ -96,8 +98,9 @@ img{
 	padding: 15px;
 }
 
-#pagehead {
-	background-image: url("space.jpg");
-	background-color: transparent;
+.pagehead {
+
+	background-image: url("http://www.axsysnav.eu/wp-content/uploads/2014/07/blue-space-wallpaper-8.png" );
+	padding-top: 10px;
 	text-align: center;
 }
